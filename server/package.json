@@ -1,0 +1,31 @@
+{
+  "name": "ai-career-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Pradeepta-Kumar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.22",
+    "@azure-rest/ai-inference": "^1.0.0-beta.6",
+    "@azure/core-auth": "^1.9.0",
+    "@google/generative-ai": "^0.24.1",
+    "ai": "^4.3.16",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "serverless-http": "^3.2.0"
+  }
+}
